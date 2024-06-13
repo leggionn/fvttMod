@@ -1,0 +1,212 @@
+{
+  "id": "зелье-изготовление-и-сбор",
+  "title": "Зелье Изготовление & Сбор",
+  "description": "Сборка дополнения piccolo917 для Зелья Изготовление & Сбора для использования в Foundry с премиальными модулями theripper93",
+  "version": "0.7.6",
+  "authors": [
+    {
+      "name": "Действие Джей",
+      "url": "https://github.com/action-jay",
+      "discord": "action.jay#4322"
+    },
+    {
+      "name": "p4535992",
+      "url": "https://github.com/p4535992",
+      "discord": "",
+      "twitter": "",
+      "patreon": "",
+      "github": "p4535992",
+      "ko-fi": "",
+      "reddit": "",
+      "email": ""
+    }
+  ],
+  "type": "модуль",
+  "socket": true,
+  "includes": [
+    "./assets/**",
+    "./lang/**",
+    "./languages/**",
+    "./scripts/**",
+    "./styles/**",
+    "./templates/**",
+    "./module.json",
+    "./README.md",
+    "./icons/**",
+    "пакеты/**"
+  ],
+  "media": [
+    {
+      "type": "иконка",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    },
+    {
+      "type": "обложка",
+      "location": ""
+    },
+    {
+      "type": "скриншот",
+      "location": ""
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "Английский",
+      "path": "языки/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "ингредиенты-для-зелье-изготовления-и-сбора",
+      "label": "Зелье Изготовление & Сбор Ингредиенты",
+      "path": "пакеты/ингредиенты-для-зелье-изготовления-и-сбора",
+      "type": "Предмет",
+      "ownership": {
+        "PLAYER": "НЕТ",
+        "TRUSTED": "НЕТ",
+        "ASSISTANT": "ВЛАДЕЛЕЦ"
+      },
+      "module": "зелье-изготовление-и-сбор",
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "алхимия-зелье-изготовление-и-сбор",
+      "label": "Зелье Изготовление & Сбор Алхимия",
+      "path": "пакеты/алхимия-зелье-изготовление-и-сбор",
+      "type": "Предмет",
+      "ownership": {
+        "PLAYER": "НЕТ",
+        "TRUSTED": "НЕТ",
+        "ASSISTANT": "ВЛАДЕЛЕЦ"
+      },
+      "module": "зелье-изготовление-и-сбор",
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "травничество-зелье-изготовление-и-сбор",
+      "label": "Зелье Изготовление & Сбор Травничество",
+      "path": "пакеты/травничество-зелье-изготовление-и-сбор",
+      "type": "Предмет",
+      "ownership": {
+        "PLAYER": "НЕТ",
+        "TRUSTED": "НЕТ",
+        "ASSISTANT": "ВЛАДЕЛЕЦ"
+      },
+      "module": "зелье-изготовление-и-сбор",
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "яды-зелье-изготовление-и-сбор",
+      "label": "Зелье Изготовление & Сбор Яды",
+      "path": "пакеты/яды-зелье-изготовление-и-сбор",
+      "type": "Предмет",
+      "ownership": {
+        "PLAYER": "НЕТ",
+        "TRUSTED": "НЕТ",
+        "ASSISTANT": "ВЛАДЕЛЕЦ"
+      },
+      "module": "зелье-изготовление-и-сбор",
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "журнал-зелье-изготовление-и-сбор",
+      "label": "Зелье Изготовление & Сбор Журнал",
+      "path": "пакеты/зелье-изготовление-и-сбор-журнал",
+      "type": "ЗаписьЖурнала",
+      "ownership": {
+        "PLAYER": "НЕТ",
+        "TRUSTED": "НЕТ",
+        "ASSISTANT": "ВЛАДЕЛЕЦ"
+      },
+      "module": "зелье-изготовление-и-сбор",
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "зелье-изготовление-и-сбор-таблицы",
+      "label": "Зелье Изготовление & Сбор Таблицы",
+      "path": "пакеты/зелье-изготовление-и-сбор-таблицы",
+      "type": "ТаблицаБросков",
+      "ownership": {
+        "PLAYER": "НЕТ",
+        "TRUSTED": "НЕТ",
+        "ASSISTANT": "ВЛАДЕЛЕЦ"
+      },
+      "module": "зелье-изготовление-и-сбор",
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Зелье Изготовление & Сбор",
+      "sorting": "м",
+      "color": "#FFC300",
+      "packs": [
+        "ингредиенты-для-зелье-изготовления-и-сбора",
+        "алхимия-зелье-изготовление-и-сбор",
+        "травничество-зелье-изготовление-и-сбор",
+        "яды-зелье-изготовление-и-сбор",
+        "журнал-зелье-изготовление-и-сбор",
+        "зелье-изготовление-и-сбор-таблицы"
+      ]
+    }
+  ],
+  "systems": [],
+  "scripts": [],
+  "esmodules": [
+    "модуль.js"
+  ],
+  "styles": [],
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 12
+  },
+  "url": "https://github.com/p4535992/foundryvtt-potion-crafting-and-gathering",
+  "manifest": "https://github.com/p4535992/foundryvtt-potion-crafting-and-gathering/releases/latest/download/module.json",
+  "download": "https://github.com/p4535992/foundryvtt-potion-crafting-and-gathering/releases/download/0.7.6/module.zip",
+  "readme": "https://github.com/p4535992/foundryvtt-potion-crafting-and-gathering/blob/master/README.md",
+  "changelog": "https://github.com/p4535992/foundryvtt-potion-crafting-and-gathering/blob/master/CHANGELOG.md",
+  "bugs": "https://github.com/p4535992/foundryvtt-potion-crafting-and-gathering/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "система",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "3.2.0",
+          "verified": "3.2.0"
+        }
+      },
+      {
+        "id": "sw5e",
+        "type": "система",
+        "manifest": "https://raw.githubusercontent.com/unrealkakeman89/sw5e/master/system.json",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": [],
+    "optional": [
+      {
+        "id": "компендиум-темизатор",
+        "type": "модуль"
+      },
+      {
+        "id": "собиратель",
+        "type": "модуль"
+      },
+      {
+        "id": "мастерское-изготовление",
+        "type": "модуль"
+      }
+    ]
+  }
+}
